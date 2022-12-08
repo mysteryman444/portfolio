@@ -1,0 +1,16 @@
+.projectGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projectImages{
+    padding-left: 1rem;
+    margin-left:1rem;
+    border-radius: 5%;
+    width: 100%;
+    /* height: 15vw; */
+}
+
+.projectText{
+    margin-left:3rem;
+}
