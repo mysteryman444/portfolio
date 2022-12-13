@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation, App, Project1, Project2, Project3, Project4, Footer } from './components';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +13,7 @@ import { Navigation, App, Project1, Project2, Project3, Project4, Footer } from 
 //   </React.StrictMode>
 // );
 ReactDOM.render(
-  <Router>
+  <HashRouter basename='/'>
     <Navigation />
     <Routes>
       <Route path="/" element={<App />} />
@@ -23,7 +23,7 @@ ReactDOM.render(
       <Route path="/apply_design" element={<Project4 />} />
     </Routes>
     <Footer/>
-  </Router>,
+  </HashRouter>,
 
   document.getElementById("root")
 );

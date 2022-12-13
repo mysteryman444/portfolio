@@ -9,29 +9,12 @@ function App() {
   return (
     <div className="App">
       <div class="container-fluid">
-        {/* <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Jonathan Goshu</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">WORK </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-            </ul>
-          </div>
-        </nav> */}
 
         <div class="col-lg-11 col-md-12 col-sm-12 col-xs-12 ">
           <div id="main-row" class="mainGrid">
             <img class="img-fluid coverImage" src={process.env.PUBLIC_URL + '/images/test.png'}></img>
             <div class="mainText text">
-              <h1>👋🏾 Hi, I'm Jonathan</h1>
+              <h1>👋🏾 Hi, I'm Anonymous</h1>
               <h4>a Computer Science Student at Brown University</h4>
             </div>
           </div>
@@ -97,24 +80,6 @@ function App() {
 
           </div>
         </div>
-
-        {/* <footer class=" text">
-          <div class="container p-4 pl-0">
-            <div class="row footer">
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-start">
-                <h4>Thank you for visiting!</h4>
-                <p>made with ❤️ in Providence </p>
-              </div>
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-end">
-                <h4></h4>
-                <a href="mailto:johndoe@gmail.com" id="mailbutton" class="btn btn-outline-primary">Contact Me!</a>
-
-              </div>
-            </div>
-
-          </div>
-
-        </footer> */}
 
       </div>
     </div>

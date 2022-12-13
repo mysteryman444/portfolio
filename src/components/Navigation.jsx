@@ -11,7 +11,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-light">
         <div className="container">
           <NavLink className="navbar-brand name " to="/">
-            Jonathan Goshu
+            Anonymous
           </NavLink>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
